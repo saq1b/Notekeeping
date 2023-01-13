@@ -1,6 +1,7 @@
 # Notekeeping
 
 Excel Module to use simple Regex call:
+```
 Function simpleCellRegex(Myrange As Range) As String
     Dim regEx As New RegExp
     Dim strPattern As String
@@ -29,4 +30,5 @@ Function simpleCellRegex(Myrange As Range) As String
         End If
     End If
 End Function
+```
 Place your strings ("12abc") in cell A1. Enter this formula =simpleCellRegex(A1) in cell B1 and the result will be "abc".
