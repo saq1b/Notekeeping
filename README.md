@@ -1,5 +1,7 @@
 # Notekeeping
 
+https://www.youtube.com/playlist?list=PLNdsZH5xtxY5a46-ig5jN0fvy8t7cs9wj
+
 Excel Module to use simple Regex call:
 ```
 Function simpleCellRegex(Myrange As Range) As String
